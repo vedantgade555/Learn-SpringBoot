@@ -1,8 +1,8 @@
 package com.kshtriya.youtube.LearningRestAPIs.dto;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
+@Getter
+@Setter
 @Data // we dont need to write the Constructoe,getter and setter
 @AllArgsConstructor  // make a construvtor with all arguments
 @NoArgsConstructor
